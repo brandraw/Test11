@@ -1,0 +1,21 @@
+<form id="embedded-subscribe" onsubmit="return false;">
+  <div class="bloom-popup">
+    <a
+      href="https://link.coupang.com/a/Vgehq"
+      target="_blank"
+      style="color: white; text-decoration: none"
+      rel="noopener nofollow"
+      onclick="closeNav()"
+      ><img
+        src="/wp-content/uploads/2023/04/ervo-rocks-Zam8TvEgN5o-unsplash.jpg"
+        alt="쿠팡 방문하고 계속 읽기"
+      />
+    </a>
+  </div>
+</form>
+
+<script>
+  function closeNav() {
+    document.getElementsByClassName("et_bloom_close_button")[0].click();
+  }
+</script>

@@ -1,0 +1,21 @@
+/* -------------------- Deli Custom CSS Style -------------------- */
+
+:root {
+    --deli-color: #EA623C;
+}
+
+/* START - Mobile */
+
+.topBanner .color02 {
+    background: var(--deli-color) !important;
+}
+
+.cate_menu ul li:first-child a {
+    background: var(--deli-color) !important;
+}
+
+.prdTab .btn li {
+    margin-bottom: 8px !important;
+}
+
+/* -------------------- END --------------------- */

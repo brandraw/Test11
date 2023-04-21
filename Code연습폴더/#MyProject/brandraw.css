@@ -1,0 +1,239 @@
+/*----------------------fontface---------------------*/
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
+    src: url('/wp-content/fonts/Montserrat-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/fonts/Montserrat-Regular.woff') format('woff');
+}
+
+/*-----------------------------------------*/
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+span,
+a,
+strong {
+    font-family: 'Montserrat', 'Noto Sans KR' !important;
+}
+
+strong {
+    font-weight: 700 !important;
+}
+
+/*-------------------------------scroll down----------------------------------*/
+
+.scroll-downs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 34px;
+    height: 55px;
+}
+
+.mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+/*-------------------------------------------------*/
+
+
+/*---------wpforms----------*/
+/*----------wpforms medium field----------*/
+
+div.wpforms-container-full .wpforms-form input[type="date"],
+div.wpforms-container-full .wpforms-form input[type="datetime"],
+div.wpforms-container-full .wpforms-form input[type="datetime-local"],
+div.wpforms-container-full .wpforms-form input[type="email"],
+div.wpforms-container-full .wpforms-form input[type="month"],
+div.wpforms-container-full .wpforms-form input[type="number"],
+div.wpforms-container-full .wpforms-form input[type="password"],
+div.wpforms-container-full .wpforms-form input[type="range"],
+div.wpforms-container-full .wpforms-form input[type="search"],
+div.wpforms-container-full .wpforms-form input[type="tel"],
+div.wpforms-container-full .wpforms-form input[type="text"],
+div.wpforms-container-full .wpforms-form input[type="time"],
+div.wpforms-container-full .wpforms-form input[type="url"],
+div.wpforms-container-full .wpforms-form input[type="week"],
+div.wpforms-container-full .wpforms-form select,
+div.wpforms-container-full .wpforms-form textarea {
+    height: 50px;
+    border: 2px solid #eaeaea;
+    background-color: #fff0;
+}
+
+div.wpforms-container-full .wpforms-form input[type="date"]:focus,
+div.wpforms-container-full .wpforms-form input[type="datetime"]:focus,
+div.wpforms-container-full .wpforms-form input[type="datetime-local"]:focus,
+div.wpforms-container-full .wpforms-form input[type="email"]:focus,
+div.wpforms-container-full .wpforms-form input[type="month"]:focus,
+div.wpforms-container-full .wpforms-form input[type="number"]:focus,
+div.wpforms-container-full .wpforms-form input[type="password"]:focus,
+div.wpforms-container-full .wpforms-form input[type="range"]:focus,
+div.wpforms-container-full .wpforms-form input[type="search"]:focus,
+div.wpforms-container-full .wpforms-form input[type="tel"]:focus,
+div.wpforms-container-full .wpforms-form input[type="text"]:focus,
+div.wpforms-container-full .wpforms-form input[type="time"]:focus,
+div.wpforms-container-full .wpforms-form input[type="url"]:focus,
+div.wpforms-container-full .wpforms-form input[type="week"]:focus,
+div.wpforms-container-full .wpforms-form select:focus,
+div.wpforms-container-full .wpforms-form textarea:focus {
+    border: 2px solid var(--nectar-accent-color) !important;
+}
+
+/*----------wpforms dropdown field----------*/
+
+div.wpforms-container-full .wpforms-form .choices .choices__inner {
+    min-height: 50px;
+    border: 2px solid #eaeaea;
+    background-color: #fff0;
+}
+
+.select2-selection.select2-selection--single {
+    display: none;
+}
+
+/*----------upload field------------*/
+
+div.wpforms-container div.wpforms-uploader {
+    background-color: #fff0 !important;
+}
+
+/*----------wpforms open text field----------*/
+
+#wpforms-749-field_9-container {
+    margin-top: -40px;
+}
+
+/*-----------wpforms divider------------*/
+
+#wpforms-749-field_2-container {
+    margin: 30px 0px;
+}
+
+/*------------wpforms submit button-------------*/
+
+.wpforms-submit-container {
+    text-align: center;
+}
+
+.wpforms-page-button {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    background-color: transparent !important;
+    border: 2px solid var(--nectar-accent-color) !important;
+    color: var(--nectar-accent-color) !important;
+}
+
+.wpforms-page-button:hover {
+    background-color: var(--nectar-accent-color) !important;
+    color: #fff !important;
+}
+
+.wpforms-submit:hover {
+    border: 2px solid var(--nectar-accent-color) !important;
+}
+
+/*-------------wpforms checkbox accent-----------------*/
+
+input.wpforms-valid {
+    accent-color: var(--nectar-accent-color) !important;
+}
+
+/*---------------salient theme----------------*/
+/*------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1300px) {
+    .container.main-content {
+        max-width: 1200px !important;
+    }
+
+    #footer-widgets .container,
+    #copyright .container {
+        max-width: 1200px !important;
+    }
+}
+
+/*-----------portfolio-----------*/
+
+#sort-label {
+    display: none !important;
+}
+
+#current-category {
+    display: none !important;
+}
+
+/*----------contact page-----------*/
+
+.contact-back-logo {
+    position: fixed !important;
+    opacity: 0.03 !important;
+    scale: 1.8;
+    transform-origin: top center;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-back-logo {
+        left: 50%;
+        top: 20%;
+    }
+}

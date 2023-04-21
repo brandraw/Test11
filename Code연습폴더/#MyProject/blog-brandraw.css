@@ -1,0 +1,110 @@
+/*---------------Web Font-----------------*/
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*------------HTML-----------*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Pretendard-Regular', 'Noto Sans KR' !important;
+    line-height: 1.8em;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-family: 'Pretendard-Bold', 'Noto Sans KR' !important;
+}
+
+p, a, span, li, button {
+    font-family: inherit;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: 600;
+    word-break: keep-all !important;
+}
+
+h1 {
+    font-size: 32px !important;
+}
+
+h2 {
+    font-size: 28px !important;
+}
+
+h3 {
+    font-size: 24px !important;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*-----------Link Hover Style-----------*/
+
+a {
+    color: var(--contrast);
+    display: inline-block;
+    position: relative;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--accent);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.site-logo a {
+    display: inherit;
+    position: inherit;
+}
+
+.site-logo a::after,.entry-title a::after {
+    content: none;
+}
+
+.inside-article,aside,.page-header,.comments-area {
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 3px !important;
+}
+
+button {
+    border-radius: 3px !important;
+}
+
+/*---------------Separator Setting--------------*/
+
+.wp-block-separator {
+    height: 1px;
+    color: rgb(230, 230, 230);
+}

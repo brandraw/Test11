@@ -1,0 +1,241 @@
+
+:root {
+    --titanMainColor: #e75525;
+    --bb-block-radius: 4px !important;
+    --bb-input-radius: 4px !important;
+    --bb-block-radius-inner: 4px !important;
+}
+
+/*------------Font------------*/
+
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*--------------Main Page--------------*/
+/*-----------Revolution Slider------------*/
+
+.titan-slider-headline-01 {
+    font-family: 'Pretendard-Bold' !important;
+}
+
+.titan-slider-description-01 {
+    font-family: 'Pretendard-Medium' !important;
+}
+
+.titan-slider-button-01 {
+    font-family: 'Pretendard-Bold' !important;
+}
+
+.titan-hero-01 .e-con-inner {
+    margin-top: -10px;
+}
+
+.learndash-content-body p {
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+
+/*-------------Lms Course Grid-----------------*/
+/*
+.titan-grid-nofilter div.flex.align-items-center.bb-courses-header, .titan-grid-nofilter div.bb-secondary-list-tabs.flex.align-items-center {
+    display: none;
+}
+
+.titan-grid-nofilter .item-avatar {
+    display: none;
+}
+
+.titan-grid-nofilter .bb-course-items .bb-cover-wrap {
+    border-radius: 0px;
+}
+
+.titan-grid-nofilter .bb-course-item-wrap:hover {
+    transform: translateY(-6px) !important;
+    transition: all 0.5s ease-in-out !important;
+}
+
+.titan-grid-nofilter .bb-course-item-wrap {
+    transform: translateY(0) !important;
+    transition: all 0.5s ease-in-out !important;
+}
+
+.titan-grid-nofilter .bb-course-meta {
+    margin-bottom: 0px !important;
+}
+
+/*---------------------WC Carousel-----------------------*/
+
+.titan-carousel img {
+    aspect-ratio: 16/10;
+}
+
+.titan-carousel .bdt-wc-carousel-item-inner:hover {
+    transform: translateY(-8px);
+    transition: all 0.5s ease-in-out;
+}
+
+.titan-carousel .bdt-wc-carousel-item-inner {
+    transition: all 0.5s ease-in-out;
+}
+
+.titan-carousel .bdt-wc-carousel-item {
+    overflow: visible !important;
+}
+
+@media (max-width: 799px) {
+    .bb-mobile-header {
+        display: none;
+    }
+}
+
+.titan-post-grid article:nth-child(2n) {
+    margin-top: -200px;
+}
+
+.titan-post-grid img {
+    aspect-ratio: 16/10;
+    object-fit: cover;
+}
+
+.titan-post-grid a {
+    border-radius: 10px !important;
+}
+
+.titan-post-grid .elementor-grid-item:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out;
+}
+
+.titan-post-grid .elementor-grid-item {
+    transition: all 0.5s ease-in-out !important;
+}
+
+/*-----------------BuddyBoss---------------*/
+/*-------------------BuddyBoss Maintenance-------------------*/
+
+.bb-template-v2.bb-page-loaded #content.maintenance-content {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+}
+
+/*---------------BB Courses Grid----------------*/
+
+.titan-bb-carousel .bb-card-course-details {
+    padding: 16px 0px 10px;
+}
+
+.titan-bb-carousel .bb-cover-list-item {
+    border: none !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.titan-bb-carousel .bb-course-cover {
+    border-radius: var(--bb-input-radius);
+}
+
+.titan-bb-carousel .bb-cover-list-item:hover {
+    box-shadow: none !important;
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out;
+}
+
+/*-----------------CosmosFarm------------------*/
+
+.cosmosfarm-members-form {
+    width: 100% !important;
+}
+
+.link-text.register a {
+    color: black !important;
+}
+
+.cosmosfarm-members-form.signup-form input[type=submit] {
+    background-color: var(--titanMainColor) !important;
+}
+
+.cosmosfarm-members-form.signin-form input[type=submit] {
+    background-color: var(--titanMainColor) !important;
+}
+
+.background-fixed {
+    background-attachment: fixed !important;
+}
+/*
+.elementor-shortcode > .cosmosfarm-members-form > .message {
+    position: fixed;
+    top: 10px !important;
+    z-index: 100;
+    border-radius: 10px;
+    padding: 10px 50px !important;
+    color: black;
+    left: 50%;
+    transform: translateX(-50%);
+}
+*/
+.policy_content {
+    height: 50px !important;
+}
+
+/*--------------------------------*/
+
+/* START - Code M Shop */
+
+/* Register */
+.dropdown.icon {
+    display: none !important;
+}
+
+.mfs_form {
+    max-width: none !important;
+    margin: 0px !important;
+}
+
+/* END - Register */
+
+/* Login */
+#mshop_form_3412, #mshop_form_3408 {
+    margin-top: -30px !important;
+    margin-bottom: -30px !important;
+}
+
+/* END - Login */
+
+/* START - Profile Edit */
+
+#profile-edit-form .field_nickname input {
+    pointer-events: none;
+}
+
+/* END - Profile Edit */

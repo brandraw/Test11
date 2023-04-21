@@ -1,0 +1,23 @@
+
+.alert {
+    background-color: orange;
+    padding: 8px 20px;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    display: none;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+}
+
+.btn-open {
+    padding: 6px 14px;
+    border-radius: 8px;
+}
+
+.yellow-bg {
+    background: yellow;
+}

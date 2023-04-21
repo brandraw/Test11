@@ -1,0 +1,109 @@
+* {
+    word-break: keep-all;
+}
+
+.direction_address {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.direction_address .left {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.direction_address .left .icon {
+    color: #ef6909;
+    font-size: 22px;
+}
+
+.direction_address .left .title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5px;
+    color: #000
+}
+
+.direction_address .right {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body.menu-custom-padding .col-lg-0.logo-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media screen and (max-width: 760px) {
+    .direction_address {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .uncode-map-wrapper {
+        height: 300px !important;
+    }
+}
+
+.btn_main {
+    padding: 8px 40px !important;
+}
+
+.slide_text_shadow {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.uncode-wrapper.uncode-list {
+    text-align: left;
+    margin: 0 40px;
+}
+
+.number_label h4 {
+    background: #f49c13;
+    padding: 5px 30px !important;
+    border-radius: 50px;
+    color: #fff !important;
+}
+
+.wpcf7-form-control.has-spinner.wpcf7-submit.btn.btn-accent {
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 12px 44px !important;
+}
+
+.wpcf7-response-output {
+    text-align: center;
+    font-size: 24px !important;
+    font-weight: 500;
+    border-radius: 20px !important;
+    box-shadow: 1px 3px 10px 1px rgba(0, 0, 0, .08);
+    padding: 20px 40px !important;
+    margin-top: 40px !important;
+}
+
+.wpforms-submit {
+    font-size: 16px !important;
+    border-radius: 40px !important;
+    padding: 12px 44px !important;
+    background: #f49c13 !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    border: 1px solid #f49c13 !important;
+}
+
+.wpforms-submit:hover {
+    background: #fff !important;
+    color: #f49c13 !important;
+    border: 1px solid #f49c13 !important;
+}
+
+/* --- Slider Dot --- */
+
+.owl-dots.uncode_slider-dot_classes.limit-width.single-h-padding.owl-dots-classes {
+    padding-bottom: 120px !important;
+}
+
+/*  */

@@ -1,0 +1,61 @@
+/* ----------------- Main Page ----------------- */
+
+#post-31 .inside-article {
+    background: #F7F8F9;
+}
+
+/*  */
+
+hr {
+    margin: 14px 0 !important;
+}
+
+.tech-post-container {
+    transition: 0.5s;
+}
+
+.tech-post-container:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+/* Single Post Comment */
+
+.wp-block-post-comments-form input:not([type="submit"]),
+.wp-block-post-comments-form textarea {
+    border: none !important;
+}
+
+.wp-block-post-comments-form .comment-reply-title {
+    display: none !important;
+}
+
+/* --------------- Comments --------------- */
+
+.comments-area {
+    display: none;
+}
+
+/* ----------------- Bloom Popup ----------------- */
+
+.et_bloom_form_header.et_bloom_header_text_dark {
+    display: none !important;
+}
+
+.et_bloom_close_button {
+    display: none !important;
+}
+
+.et_bloom_popup_container {
+    width: 400px !important;
+}
+
+.et_bloom .et_bloom_form_container .et_bloom_form_content {
+    padding: 0 !important;
+}
+
+#embedded-subscribe {
+    margin-bottom: -3px;
+}
+
+/* --------------------------------------------- */

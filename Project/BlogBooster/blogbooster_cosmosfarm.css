@@ -1,0 +1,103 @@
+/* ----------------------- START - Cosmosfarm -------------------- */
+
+.cosmosfarm-members-form {
+    width: 100%;
+}
+
+.cosmosfarm-members-form input {
+    padding: 28px 20px !important;
+    border-radius: 10px !important;
+}
+
+.cosmosfarm-members-form input:focus {
+    border: 2px solid orange;
+}
+
+.cosmosfarm-members-form button,
+.cosmosfarm-members-form input[type=submit] {
+    background-color: var(--e-global-color-primary) !important;
+    background-image: linear-gradient(165deg, var(--e-global-color-9c501c2) 0%, var(--e-global-color-2ef8010) 100%);
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+    height: 58px;
+}
+
+.cosmosfarm-members-form button:hover,
+.cosmosfarm-members-form input[type=submit]:hover {
+    background-image: linear-gradient(165deg, var(--e-global-color-9c501c2) 0%, var(--e-global-color-2ef8010) 100%) !important;
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
+.link-text.pwdreset a, .link-text.register a {
+    font-size: 14px;
+    color: #202020;
+    font-weight: 600;
+}
+
+.link-text.pwdreset a:hover,
+.link-text.register a:hover {
+    color: var(--e-global-color-primary);
+}
+
+.cosmosfarm-members-form input:focus {
+    border: 1px solid orange !important;
+    transition: 0.3s;
+}
+
+.cosmosfarm-members-form input {
+    transition: 0.3s;
+}
+
+label {
+    font-weight: 500;
+}
+
+.button_div {
+    overflow: visible !important;
+}
+
+/* Register */
+
+.cosmosfarm-members-form .policy_content {
+    height: 100px;
+}
+
+/* User Profile Page */
+
+.cosmosfarm-members-form .members-link {
+    background-color: #fff;
+    border: none !important;
+    overflow: visible;
+}
+
+.cosmosfarm-members-form .members-link li {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cosmosfarm-members-form .members-link li a {
+    color: #202020;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #aaaaaa !important;
+    border-radius: 10px;
+}
+
+.cosmosfarm-members-form .members-link li a:hover {
+    text-decoration: none;
+    transform: translateY(-4px);
+}
+
+/* Restrict Page */
+
+body.page-template.page-template-elementor_canvas.page.page-id-1303.wp-embed-responsive.lqd-preloader-activated.lqd-page-not-loaded.lqd-preloader-style-fade.sidebar-widgets-outline.lazyload-enabled.elementor-default.elementor-template-canvas.elementor-kit-17.elementor-page.elementor-page-1303 {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    transform: translateY(50%);
+}
+
+/* ---------------- END - Cosmosfarm ------------------ */

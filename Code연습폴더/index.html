@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>I'm the Best!</title>
+    <link rel="stylesheet" href="main.css">
+    </head>
+<body>
+    <div class="alert" id="helloBox">
+    <p>안녕하세용?</p></div>
+    <button class="btn-open" onclick="btnOpen('block')">열기</button>
+    <button class="btn-open" onclick="btnOpen('none')">닫기</button>
+    
+<script>
+    
+    function btnOpen(Hole){
+        document.getElementById('helloBox').innerHTML = '내가 누구게?';
+        document.getElementById('helloBox').style.display = Hole;   
+    }
+    
+    document.getElementById('helloBox').style.fontSize = '48px';
+
+
+</script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+/* -------------------- Deli Custom CSS Style -------------------- */
+
+:root {
+    --deli-color: #EA623C;
+}
+
+/* START - PC */
+
+.leftCategory #categoryMenu .menu-dp1>li:hover>a {
+    background: var(--deli-color) !important;
+}
+
+.AllCategory .btn-allcate {
+    background: var(--deli-color) !important;
+}
+
+.leftCategory #categoryMenu .menu-dp2>li:hover>a {
+    background: var(--deli-color) !important;
+}
+
+.topArea02 {
+    margin-bottom: 28px;
+}
+
+/* -------------------- END --------------------- */

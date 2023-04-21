@@ -1,0 +1,801 @@
+html {
+	scroll-behavior:smooth;
+}
+
+.ast-plain-container.ast-no-sidebar #primary {
+    margin-top: 0px;
+}
+.elementor-sub-item.menu-link {
+    margin: 5px !important;
+    border-radius: 8px !important;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+/*-----------------Style Classes------------------*/
+
+.font-18px {
+    font-size: 18px;
+}
+
+.font-24px {
+    font-size: 24px;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+.margin-b30 {
+    margin-bottom: 30px;
+}
+
+.img-size-120 {
+    object-fit: cover;
+    width: 120px;
+}
+
+.img-height-100 {
+    object-fit: cover;
+    height: 100px;
+}
+
+.background-fixed {
+    background-attachment: fixed !important;
+}
+
+.reject-message {
+    padding: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.01);
+    margin-top: 40px;
+}
+
+/*---------------table--------------*/
+
+table {
+    width: 100%;
+    border-collapse: collapse !important;
+}
+
+th, td {
+    vertical-align: middle !important;
+}
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem > table td {
+    padding: 6px !important;
+}
+
+/*---my page edit---*/
+
+.tgwc-woocommerce-MyAccount-navigation {
+    display: none !important;
+}
+
+/**----login button style----*/
+
+#um-submit-btn {
+    font-family: "Poppins",sans-serif;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    background-color: var(--e-global-color-accent);
+    border-radius: 8px !important;
+    border: 2px solid var(--e-global-color-accent) !important;
+}
+
+#um-submit-btn:hover {
+    background-color: #fff0;
+    color: var(--e-global-color-accent);
+}
+
+.um-half {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*----------register button style-----------*/
+
+.um-button.um-alt {
+    font-family: "Poppins",sans-serif;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    border-radius: 8px !important;
+}
+
+.um-center .um-button {
+    width: 100% !important;
+    margin-top: 20px !important;
+}
+
+/*------------link button style-------------*/
+
+.um-link-alt {
+    font-family: inter,sans-serif;
+    font-weight: 500 !important;
+}
+
+/*------checkbox style------*/
+
+.um-icon-android-checkbox-outline {
+    color: var(--e-global-color-accent) !important;
+}
+
+/*-----------------um essential star after label--------------------*/
+
+#um_field_5111_billing_first_name .um-field-label label::after,
+#um_field_5111_billing_last_name .um-field-label label::after,
+#um_field_5111_user_login .um-field-label label::after,
+#um_field_5111_user_email .um-field-label label::after,
+#um_field_5111_user_password .um-field-label label::after,
+#um_field_5111_confirm_user_password .um-field-label label::after,
+#um_field_5111_birth_date .um-field-label label::after,
+#um_field_5111_billing_country .um-field-label label::after,
+#um_field_5111_billing_city .um-field-label label::after,
+#um_field_5111_display_name .um-field-label label::after {
+    content: "*";
+    color: red;
+    font-style: normal;
+    font-size: 15px;
+    text-decoration: none !important;
+    position: static;
+    text-align: right;
+    margin-left: 1px;
+}
+
+/*----label style----*/
+
+label {
+    font-family: "Poppins",sans-serif;
+}
+
+/*---um-input field style---*/
+
+.um-form input[type="text"], .um-form input[type="tel"], .um-form input[type="number"], .um-form input[type="password"] {
+    padding: 24px 16px !important;
+    border-radius: 10px;
+    background-color: #f4f4f4 !important;
+}
+
+.um .um-form input[type="text"]:focus, .um .um-form input[type="tel"]:focus, .um .um-form input[type="number"]:focus, .um .um-form input[type="password"]:focus, .um .um-form textarea:focus {
+    background-color: #fff !important;
+    border: 1px solid var(--e-global-color-accent) !important;
+}
+
+.um-icon-android-radio-button-on {
+    color: var(--e-global-color-accent) !important;
+}
+
+.picker__box {
+    background: var(--e-global-color-accent) !important;
+}
+
+.picker__header {
+    background: var(--e-global-color-accent) !important;
+}
+
+.picker__footer {
+    background: var(--e-global-color-accent) !important;
+}
+
+.picker__day.picker__day--infocus.picker__day--highlighted {
+    background: none !important;
+    outline: 2px solid #fff;
+    outline-offset: -2px;
+    border-radius: 20px !important;
+}
+
+.picker__day--infocus:hover {
+    background: none !important;
+    outline: 2px solid #fff;
+    outline-offset: -2px;
+    border-radius: 20px !important;
+}
+
+/*------------field error------------*/
+
+.select2-container {
+    z-index: auto;
+}
+
+.um-search-filter .select2.select2-container .select2-selection, .um-field .select2.select2-container .select2-selection {
+    border-radius: 10px !important;
+}
+
+/*---------error masage-----------*/
+
+.um-field-error {
+    background-color: #ffffff !important;
+    border-radius: 8px !important;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.05);
+    color: red !important;
+}
+
+.um-field-arrow {
+    color: #ffffff !important;
+}
+
+.um-notice.err {
+    background-color: #ffffff !important;
+    border-radius: 8px !important;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.05);
+    color: red !important;
+}
+
+/*-----------um post message------------*/
+
+.um-postmessage {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--e-global-color-accent);
+    padding: 20px 34px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------woocommerce button----------------*/
+
+.woocommerce-Button.button.wp-element-button,.button.wp-element-button {
+    color: #fff;
+    background-color: var(--e-global-color-accent) !important;
+    padding: 16px 44px;
+    transition: all 0.5s;
+    font-family: poppins, sans-serif;
+    text-transform: uppercase;
+    border: 2px solid var(--e-global-color-accent) !important;
+    border-radius: 10px;
+}
+
+.woocommerce-Button.button.wp-element-button:hover,.button.wp-element-button:hover {
+    border: 2px solid var(--e-global-color-accent) !important;
+    background: #fff !important;
+    color: var(--e-global-color-accent) !important;
+}
+
+/*------------woocommerce form-------------*/
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    padding: 16px 14px;
+    border-radius: 8px;
+}
+
+.woocommerce form .form-row input.input-text:focus, .woocommerce form .form-row textarea:focus {
+    border: 1px solid var(--e-global-color-accent);
+}
+
+/*---------------ultimate date modal---------------*/
+
+.picker__button--close {
+    margin-top: 20px;
+    background: var(--e-global-color-accent);
+    transition: all 0.5s;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid var(--e-global-color-accent);
+}
+
+.picker__button--close:hover {
+    transform: translateY(-4px);
+    background: var(--e-global-color-accent);
+    border: 2px solid var(--e-global-color-accent);
+}
+
+/*--------------product sale button-----------------*/
+
+.ast-on-card-button.ast-onsale-card {
+    display: none;
+}
+
+/*-------------------add cart button-----------------------*/
+/*
+.ast-on-card-button.ast-select-options-trigger.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    display: none;
+}
+
+/*-----woocommerce single product page------*/
+/*
+.tabs.wc-tabs {
+	display: none;
+}
+/*
+.woocommerce-product-gallery.woocommerce-product-gallery--without-images.woocommerce-product-gallery--columns-4.images {
+	display: none;
+}
+.summary.entry-summary {
+	display: none;
+}
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images {
+	display: none;
+}
+.woocommerce div.product .woocommerce-tabs {
+	padding-top: 0px;
+}
+
+/*-----------Apply menu btn style-----------*/
+
+.apply_btn {
+    color: var(--e-global-color-accent);
+}
+
+.apply_btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--e-global-color-accent);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.apply_btn:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/*------------page navigation-------------*/
+
+.navigation.post-navigation {
+    display: none;
+}
+
+/*--------wp-forms progress bar--------*/
+
+.wpforms-page-indicator-page-progress {
+    background-color: var(--e-global-color-accent) !important;
+}
+
+.wpforms-page-indicator-steps {
+    font-family: poppins, sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+
+/*-----------wp-forms next btn------------*/
+
+.wpforms-page-button.wpforms-page-next, .wpforms-submit {
+    color: #ffffff !important;
+    background-color: var(--e-global-color-accent) !important;
+    padding: 14px 50px !important;
+    transition: all 0.5s;
+    font-family: poppins, sans-serif !important;
+    text-transform: uppercase !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    border: 2px solid var(--e-global-color-accent) !important;
+    border-radius: 10px !important;
+    float: right !important;
+}
+
+.wpforms-page-button.wpforms-page-next:hover, .wpforms-submit:hover {
+    border: 2px solid var(--e-global-color-accent) !important;
+    color: var(--e-global-color-accent) !important;
+    background-color: #ffffff00 !important;
+}
+
+/*----------wp forms previous button------------[*/
+
+.wpforms-page-button.wpforms-page-prev {
+    border: 2px solid var(--e-global-color-accent) !important;
+    border-radius: 10px !important;
+    color: var(--e-global-color-accent) !important;
+    background-color: #ffffff00 !important;
+    padding: 14px 50px !important;
+    transition: all 0.5s;
+    font-family: poppins, sans-serif !important;
+    text-transform: uppercase !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.wpforms-page-button.wpforms-page-prev:hover {
+    background-color: #e9f6ff !important;
+}
+
+/* ------------- wp Forms Submit Button ------------- */
+
+button#wpforms-submit-4656 {
+    margin-top: -70px;
+}
+
+/*-----------wp forms confirmation-----------*/
+
+#wpforms-confirmation-4656 {
+    color: var(--e-global-color-accent);
+    font-weight: 700;
+    border: 3px solid var(--e-global-color-accent);
+    border-radius: 10px;
+    background: #fff0;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 26px 16px;
+    text-align: center;
+}
+
+/*---------jkc btn----------*/
+
+.jkc-btn-01 {
+    color: #ffffff !important;
+    background-color: var(--e-global-color-accent) !important;
+    padding: 14px 50px !important;
+    transition: all 0.5s;
+    font-family: poppins, sans-serif !important;
+    text-transform: uppercase !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    border: 2px solid var(--e-global-color-accent) !important;
+    border-radius: 10px !important;
+}
+
+.jkc-btn-01:hover {
+    border: 2px solid var(--e-global-color-accent) !important;
+    color: var(--e-global-color-accent) !important;
+    background-color: #ffffff00 !important;
+}
+
+.jkc-btn-02 {
+    display: inline-block !important;
+    position: relative !important;
+    color: var(--e-global-color-accent);
+    font-family: poppins, sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+
+.jkc-btn-02:hover {
+    color: var(--e-global-color-accent) !important;
+}
+
+.jkc-btn-02::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--e-global-color-accent);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.jkc-btn-02:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.jkc-btn-02-align {
+    text-align: left;
+}
+
+#wpforms-4656-field_19 {
+    margin-bottom: 20px;
+}
+
+/*--------------------Learn Dash Plugin-----------------------*/
+/*------------LMS Profile----------*/
+
+.ld-profile-summary {
+    display: none;
+}
+
+.ld-profile-edit-link {
+    display: none !important;
+}
+
+/*--------------LMS Mybook------------------*/
+
+.post-thumb-img-content.post-thumb {
+    display: none;
+}
+
+/*------------audio player------------*/
+
+.mejs-container, .mejs-container .mejs-controls, .mejs-embed, .mejs-embed body {
+    background: #000;
+    border-radius: 20px;
+    width: 100% !important;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+    background: var(--e-global-color-accent);
+}
+
+/*-----------LMS course container error---------*/
+
+.ast-page-builder-template .site-content > .ast-container {
+    max-width: 1400px !important;
+}
+
+/*----------------LMS Title-----------------*/
+
+.entry-title {
+    font-weight: 600 !important;
+}
+
+/*--------------LMS Quiz-------------------*/
+
+.level-test-head-1-25 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Noto Sans KR", sans-serif !important;
+    margin-bottom: 15px !important;
+}
+
+.wpProQuiz_questionListItem ol li {
+    margin: 10px 0px;
+}
+
+.wpProQuiz_question .wpProQuiz_question_text h4 {
+    margin-bottom: 20px !important;
+}
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem span.wpProQuiz_cloze {
+    margin: 4px 0px;
+}
+
+/*------------LMS metrix sorting answer--------------*/
+
+body .wpProQuiz_content .wpProQuiz_listItem[data-type="matrix_sort_answer"] .wpProQuiz_sortStringItem::before, body .wpProQuiz_content .wpProQuiz_questionList[data-type="matrix_sort_answer"] .wpProQuiz_sortStringItem::before {
+    content: "+" !important;
+}
+
+/*-----------------LMS my book---------------------*/
+
+.ld-expand-button.ld-primary-background.ld-compact.ld-not-mobile {
+    display: none;
+}
+
+/*-----------LMS Embed Vimeo-----------*/
+
+.ast-oembed-container {
+    margin: 30px 0;
+}
+
+/*-------------woo mypage zoom--------------*/
+
+.woocommerce table.shop_table, .woocommerce-page table.shop_table {
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-family: poppins, sans-serif;
+}
+
+.woocommerce table.shop_table thead, .woocommerce-page table.shop_table thead {
+    background-color: #fff !important;
+}
+
+.woocommerce table.shop_table td, .woocommerce-page table.shop_table td {
+    border-right: none !important;
+}
+
+/*----------------------------------------MEC------------------------------------*/
+/*-----------mec Event List Icon----------*/
+
+.mec-svg-icon {
+    display: none !important;
+}
+
+/*-----------mec simple monthly view------------*/
+
+.mec-calendar.mec-event-container-simple dl dt.mec-calendar-day {
+    font-size: 14px !important;
+}
+
+.mec-event-title {
+    font-weight: 400 !important;
+}
+
+/*-----------wp form PayPal button-------------*/
+
+#wpforms-paypal-commerce-single-submit-button-4656 {
+    width: 100% !important;
+}
+
+/*--------------LMS Quiz---------------*/
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_button, .learndash-wrapper .wpProQuiz_content .wpProQuiz_button2 {
+    padding: 1em 2em !important;
+}
+
+.wpProQuiz_text > div > .wpProQuiz_button:first-child {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/*-----------Main Rotate Head-----------*/
+
+.head-rotate-01 {
+    transform: rotate(0.02turn) !important;
+}
+
+.head-rotate-02 {
+    transform: rotate(-0.02turn) !important;
+}
+
+.head-rotate-03 {
+    transform: rotate(-0.03turn) !important;
+}
+
+.head-rotate-04 {
+    transform: rotate(0.025turn) !important;
+}
+
+.head-rotate-05 {
+    transform: rotate(0.05turn) !important;
+}
+
+/*-------------------------QUIZ MAKER-------------------------*/
+/*--------------quiz maker start page----------------*/
+
+.ays-fs-title {
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    margin-top: 24px !important;
+}
+.ays_message {
+    margin: 30px !important;
+}
+
+/*-------------quiz maker custom banner---------------*/
+
+#ays-quiz-container-2 #ays_finish_quiz_2 div.step {
+    min-height: 0px !important;
+}
+
+/*-------------quiz maker answer box-------------*/
+
+.ays-field.ays_list_view_item {
+    border-radius: 10px !important;
+}
+
+/*--------------quiz maker question title---------------*/
+
+.question-title {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-bottom: 14px !important;
+    margin-left: 2em !important;
+}
+
+/*-------------------------------------------------------------------------*/
+/*----------------K-Board Setting---------------*/
+
+.kboard-default-poweredby {
+    display: none;
+}
+
+.kboard-media-poweredby {
+    display: none;
+}
+
+.kboard-list-user {
+    display: none;
+}
+
+#kboard-default-list .kboard-list-header .kboard-total-count {
+    display: none !important;
+}
+
+#kboard-default-list .kboard-list table td.kboard-list-vote {
+    display: none !important;
+}
+
+#kboard-default-list .kboard-list table td.kboard-list-uid {
+    width:15% !important;
+}
+#kboard-default-list .kboard-list table td.kboard-list-date {
+    width:15% !important;
+}
+
+#kboard-default-list .kboard-list table td.kboard-list-view {
+    width:10% !important;
+}
+
+#kboard-default-list .kboard-list thead tr td {
+    background: #f9f9f9;
+    border-top: 2px solid var(--e-global-color-accent);
+}
+
+#kboard-default-list .kboard-list table td {
+    font-size:15px !important;
+    padding: 18px 0;
+}
+
+#kboard-default-list .kboard-list table a {
+    font-size:15px !important;
+}
+
+.kboard-default-button-small {
+    padding: 4px 20px !important;
+    font-family: 'poppins';
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+
+.kboard-default-button-small:hover {
+    background-color: var(--e-global-color-accent) !important;
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+/*-----------------Audio Setting-------------------*/
+
+.amazingaudioplayer-mark {
+    display: none !important;
+}
+
+/*--------------Members Portal------------------*/
+
+.elementor-8536 .elementor-element.elementor-element-19f72ef3 > .elementor-widget-container {
+    margin: 0px;
+}
+
+/*-------------Keyboard Iframe--------------*/
+
+.bdt-drop.bdt-card.bdt-card-body.bdt-card-default.bdt-open {
+    overflow: hidden;
+}
+
+.elementor.elementor-12257 {
+    margin-top: -180px;
+}
+
+/*-------------Sumo Payment--------------*/
+/*
+#_sumo_pp_payment_type_fields ._sumo_pp_initial_payable {
+    margin-bottom: 0px;
+}
+
+._sumo_pp_total_payable {
+    margin-bottom: 0px;
+}
+
+._sumo_pp_plan_view_more {
+    display: none;
+}
+
+#_sumo_pp_payment_type_fields table, #_sumo_pp_payment_type_fields td, #_sumo_pp_payment_type_fields th {
+    border: none;
+}
+
+#_sumo_pp_plans_to_choose {
+    padding: 20px 30px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+/*----------------------payment progress page-----------------------*/
+
+.particles-js-canvas-el {
+    position: fixed !important;
+}
+
+
+/*------------------Shop Page------------------*/
+
+.attachment-woocommerce_thumbnail, .woocommerce-placeholder {
+    aspect-ratio: 5/3;
+    object-fit: cover;
+}
+
+/* START - Woo Currency */
+
+.wmc-title, .wmc-currency {
+    border-radius: 10px 0 0 10px !important;
+}
+
+/* END - Woo Currency */

@@ -1,0 +1,109 @@
+
+/*---------------Web Font-----------------*/
+
+@font-face {
+    font-family: 'Pretendard-ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Light';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*------------HTML-----------*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Pretendard-Regular', 'Noto Sans KR' !important;
+    line-height: 1.8em;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+    font-family: 'Pretendard-Bold', 'Noto Sans KR' !important;
+}
+
+p, a, span, li, button {
+    font-family: inherit;
+}
+
+.font-extraLight {
+    font-family: 'Pretendard-ExtraLight' !important;
+}
+
+.font-light {
+    font-family: 'Pretendard-Light' !important;
+}
+
+.font-regular {
+    font-family: 'Pretendard-Regular' !important;
+}
+
+.font-semibold {
+    font-family: 'Pretendard-SemiBold' !important;
+}
+
+.font-bold {
+    font-family: 'Pretendard-Bold' !important;
+}
+
+.font-medium {
+    font-family: 'Pretendard-Medium' !important;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat' !important;
+}
+
+
+/* START - MAIN PAGE */
+
+.lqd-roadmap::before {
+    border: none !important;
+}
+
+/* END - MAIN PAGE */
+
+/* START - ABOUT PAGE */
+
+@media (max-width: 767px) {
+    .carousel-items.pos-rel.flickity-enabled.is-draggable.lqd-carousel-ready {
+            margin-bottom: -100px;
+    }
+}
+
+/* END - ABOUT PAGE */

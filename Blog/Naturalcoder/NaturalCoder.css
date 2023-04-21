@@ -1,0 +1,225 @@
+:root {
+    --iden-font-family400: 'Pretendard-Regular';
+    --iden-font-family500: 'Pretendard-Medium';
+    --iden-font-family600: 'Pretendard-SemiBold';
+    --iden-font-family700: 'Pretendard-Bold';
+}
+
+/*---------------Web Font-----------------*/
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('/wp-content/uploads/fonts/Pretendard-Regular.subset.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('/wp-content/uploads/fonts/Pretendard-Medium.subset.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('/wp-content/uploads/fonts/Pretendard-SemiBold.subset.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('/wp-content/uploads/fonts/Pretendard-Bold.subset.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*------------HTML-----------*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Pretendard-Medium', sans-serif;
+    line-height: 1.8em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+    font-family: 'Pretendard-Bold', sans-serif !important;
+}
+
+p,
+a,
+span,
+li,
+ul,
+button,
+div {
+    font-family: inherit;
+}
+
+a {
+    transition: 0.2s;
+}
+
+/* TEXT BOX */
+
+.textbox {
+    border-radius: 4px;
+    padding: 1.25em 1.5em;
+}
+
+.textbox-default {
+    border-radius: 4px;
+    border: 1px solid rgba(55, 53, 47, 0.16);
+    background-color: transparent;
+    padding: 1.25em 1.5em;
+}
+
+.textbox-yellow {
+    border-radius: 4px;
+    background-color: rgb(251, 243, 219);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-red {
+    border-radius: 4px;
+    background-color: rgb(253, 235, 236);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-green {
+    border-radius: 4px;
+    background-color: rgb(237, 243, 236);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-blue {
+    border-radius: 4px;
+    background-color: rgb(231, 243, 248);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-gray {
+    border-radius: 4px;
+    background-color: rgb(241, 241, 239);
+    padding: 1.25em 1.5em;
+}
+
+/* Elementor Header */
+.elementor-sticky--effects {
+    transition: all 0.5s ease !important;
+    background: #fff !important;
+}
+
+.sticky-nav .elementor-item:hover {
+    color: var(--e-global-color-accent) !important;
+}
+
+.elementor-sticky--effects .sticky-nav .elementor-item {
+    color: #000 !important;
+}
+
+.elementor-sticky--effects .sticky-nav .elementor-item:hover {
+    color: var(--e-global-color-accent) !important;
+}
+
+selector {
+    transition: background-color 0.5s ease !important;
+}
+
+selector.elementor-sticky--effects {
+    min-height: 80px;
+}
+
+selector.elementor-sticky--effects {
+    transition: min-height 0.5s ease !important;
+}
+
+.black-logo {
+    display: none !important;
+}
+
+.elementor-sticky--effects .black-logo {
+    display: inline-block !important;
+}
+
+.elementor-sticky--effects .white-logo {
+    display: none !important;
+}
+
+/* Fixed TOC */
+
+ol#ftwp-list {
+    margin-bottom: 8px !important;
+}
+
+#ftwp-contents {
+    border-radius: 4px !important;
+}
+
+/* Side Bar */
+
+.tagcloud a {
+    display: inline-block;
+    font-size: 13px !important;
+    border: 1px solid #eaeaea;
+    border-radius: 30px;
+    padding: 3px 16px;
+    margin-bottom: 6px;
+    line-height: 1.6em;
+}
+
+.tagcloud a:hover {
+    border: 1px solid var(--e-global-color-accent);
+}
+
+.elementor-widget-wp-widget-tag_cloud>.elementor-widget-container>h5 {
+    display: none;
+}
+
+/* POST CONTENT */
+
+#ftwp-postcontent p {
+    line-height: 2em !important;
+    min-height: 1em;
+}
+
+#ftwp-postcontent a {
+    text-decoration: underline;
+}
+
+#ftwp-contents {
+    margin-bottom: 40px !important;
+}
+
+#natural-post h2 {
+    background-color: rgb(251, 243, 219);
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+#natural-post h3 {
+    background-color: rgb(241, 241, 239);
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.code-text {
+    padding: 2px 4px;
+    font-size: .95em;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}

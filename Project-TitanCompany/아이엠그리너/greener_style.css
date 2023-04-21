@@ -1,0 +1,288 @@
+/*---------------Web Font-----------------*/
+
+@font-face {
+    font-family: 'PosteramaText-SemiBold';
+    src: url('/wp-content/fonts/PosteramaText-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PosteramaText-Bold';
+    src: url('/wp-content/fonts/PosteramaText-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* -------------------------------------- */
+
+span.pp-tooltip {
+    font-family: 'PosteramaText-Bold' !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.relative-box {
+    position: relative;
+}
+
+.absolute-mark {
+    position: absolute;
+    top: 0px;
+    left: -57px;
+}
+
+div#business-carousel-nav>div {
+    align-content: flex-end !important;
+}
+
+.navbar-collapse {
+    border: none !important;
+    box-shadow: none I !important;
+}
+
+/* ---------- Button ------------ */
+
+.greener-btn .elementor-button {
+    transition: 0.5s;
+    padding: 18px 46px !important;
+    border: 3px solid #aeaeae !important;
+    border-radius: 0px;
+    background-color: transparent;
+    font-size: 18px;
+    color: #222;
+}
+
+.greener-btn .elementor-button:hover {
+    border-radius: 50px;
+    border: 3px solid #000 !important;
+}
+
+.greener-btn-small .elementor-button {
+    transition: 0.5s;
+    padding: 12px 36px !important;
+    border: 3px solid #aeaeae !important;
+    border-radius: 0px;
+    background-color: transparent;
+    font-size: 18px;
+    color: #222;
+}
+
+.greener-btn-small .elementor-button:hover {
+    border-radius: 50px;
+    border: 3px solid #000 !important;
+}
+
+.greener-btn-white .elementor-button {
+    transition: 0.5s;
+    padding: 18px 46px !important;
+    border: 3px solid #fff !important;
+    border-radius: 0px;
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+}
+
+.greener-btn-white .elementor-button:hover {
+    border-radius: 50px;
+    border: 3px solid #fff !important;
+}
+
+/* ---------- TimeLine ------------ */
+
+.lqd-roadmap:before {
+    border: none;
+}
+
+.lqd-roadmap {
+    padding: 0;
+}
+
+.lqd-roadmap-info {
+    margin-bottom: 40px;
+}
+
+/* ------------- Contact Icon ------------- */
+
+.greener-icon-btn span.elementor-button-icon.elementor-align-icon-left svg {
+    width: 24px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.greener-icon-btn span.elementor-button-text {
+    margin-top: 1px;
+}
+
+.greener-icon-btn2 span.elementor-button-icon.elementor-align-icon-left svg {
+    width: 20px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+.greener-icon-btn2 span.elementor-button-text {
+    margin-top: 1px;
+}
+
+/* ------------ Mobile Header Trigger ------------ */
+
+@media screen and (max-width: 1024px) {
+    .main-header .nav-trigger .bar {
+        background-color: #000;
+    }
+
+    .home .main-header .nav-trigger .bar {
+        background-color: #fff;
+    }
+
+    .lqd-mobile-sec .main-nav>li>a {
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-trigger.solid .bars:before {
+        background-color: #f5f5f5;
+    }
+
+    .navbar-fullscreen .main-nav-trigger {
+        right: 0;
+    }
+}
+
+.lqd-mobile-sec .submenu-expander {
+    background-color: transparent !important;
+}
+
+.lqd-mobile-sec .nav-item-children {
+    padding: 0px 0 15px;
+}
+
+/* ---------- Image Gallery --------- */
+
+footer.elementor-slideshow__footer.elementor-lightbox-prevent-close {
+    display: none;
+}
+
+.elementor-icon-list-items {
+    list-style: none;
+}
+
+/* ----------------- WP Forms ----------------- */
+
+.wpforms-field input {
+    border: none !important;
+    border-bottom: 1px solid #eaeaea !important;
+    border-radius: 0px !important;
+    padding: 20px 0px 24px 0px !important;
+    transition: 0.3s;
+}
+
+.wpforms-field input:hover {
+    border-bottom: 1px solid #000 !important;
+    transition: 0.3s;
+}
+
+.wpforms-field input:focus {
+    border-bottom: 1px solid #000 !important;
+}
+
+.wpforms-field-label {
+    font-size: 20px !important;
+    margin-bottom: 16px !important;
+    font-family: 'Pretendard-Bold', sans-serif;
+}
+
+.wpforms-field {
+    margin-top: 42px !important;
+}
+
+.wpforms-field:first-child {
+    margin-top: 0px !important;
+}
+
+.wpforms-field:last-child {
+    margin-top: 10px !important;
+}
+
+.wpforms-field textarea {
+    border: 1px solid #eaeaea !important;
+    border-radius: 0px !important;
+    padding: 42px 40px !important;
+    transition: 0.3s;
+}
+
+.wpforms-field textarea:hover {
+    border: 1px solid #000 !important;
+    transition: 0.3s;
+}
+
+.wpforms-field textarea:focus {
+    border: 1px solid #000 !important;
+    transition: 0.3s;
+}
+
+.wpforms-submit {
+    transition: 0.5s;
+    padding: 18px 46px !important;
+    border: 3px solid #00BAB3 !important;
+    border-radius: 0px;
+    background-color: #00BAB3 !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    font-family: 'Pretendard-Bold', sans-serif;
+}
+
+.wpforms-submit:hover {
+    border-radius: 50px !important;
+    border: 3px solid #00BAB3 !important;
+}
+
+.wpforms-submit-container {
+    text-align: center;
+    margin-top: 40px !important;
+}
+
+/* ---------------------------------------------- */
+
+/* --------------- Zero Cycle -------------- */
+
+.lqd-fb-style-1:hover .lqd-fb-bg {
+    background: #000000CC;
+    transition: 0.3s;
+}
+
+.lqd-fb-style-1 .lqd-fb-bg {
+    transition: 0.3s;
+}
+
+/* -------------- 자주찾는질문 탭 --------------- */
+
+.lqd-tabs-style-12 .lqd-tabs-nav a:after {
+    height: 4px !important;
+}
+
+/* --------- Hero ----------- */
+
+.greener-hero-heading {
+    font-family: 'PosteramaText-Semibold', sans-serif !important;
+    letter-spacing: -0.02em !important;
+    text-transform: uppercase;
+}
+
+.greener-hero-description {
+    font-family: 'Pretendard-Bold', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    .greener-hero-description {
+        font-size: 16px !important;
+    }
+
+    .greener-hero-heading,
+    .greener-hero-heading span {
+        font-size: 32px !important;
+        line-height: 1.3rem !important;
+    }
+}
