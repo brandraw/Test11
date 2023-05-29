@@ -1,0 +1,217 @@
+/*---------------Web Font-----------------*/
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('/wp-content/uploads/fonts/Pretendard-Regular.subset.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('/wp-content/uploads/fonts/Pretendard-Medium.subset.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('/wp-content/uploads/fonts/Pretendard-SemiBold.subset.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('/wp-content/uploads/fonts/Pretendard-Bold.subset.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+    font-family: 'Pretendard-Bold', sans-serif !important;
+}
+
+body {
+    font-family: 'Pretendard-Medium', sans-serif !important;
+    line-height: 1.8em;
+}
+
+p,
+a,
+span,
+li,
+ul,
+button,
+div {
+    font-family: inherit;
+}
+
+/* TEXT BOX */
+
+.textbox {
+    border-radius: 4px;
+    padding: 1.25em 1.5em;
+}
+
+.textbox-default {
+    border-radius: 4px;
+    border: 1px solid rgba(55, 53, 47, 0.16);
+    background-color: transparent;
+    padding: 1.25em 1.5em;
+}
+
+.textbox-yellow {
+    border-radius: 4px;
+    background-color: rgb(251, 243, 219);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-orange {
+    border-radius: 4px;
+    background-color: #FBECDD;
+    padding: 1.25em 1.5em;
+}
+
+.textbox-red {
+    border-radius: 4px;
+    background-color: rgb(253, 235, 236);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-green {
+    border-radius: 4px;
+    background-color: rgb(237, 243, 236);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-blue {
+    border-radius: 4px;
+    background-color: rgb(231, 243, 248);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-gray {
+    border-radius: 4px;
+    background-color: rgb(241, 241, 239);
+    padding: 1.25em 1.5em;
+}
+
+.code-text {
+    padding: 2px 4px;
+    font-size: .95em;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+.textbox-small-default {
+    border-radius: 2px;
+    border: 1px solid rgba(55, 53, 47, 0.16);
+    background-color: transparent;
+    padding: 0.4em 0.6em;
+}
+
+.textbox-small-orange {
+    border-radius: 2px;
+    background-color: #FBECDD;
+    padding: 0.4em 0.6em;
+}
+
+.textbox-small-red {
+    border-radius: 2px;
+    background-color: rgb(253, 235, 236);
+    padding: 0.4em 0.6em;
+}
+
+.textbox-small-green {
+    border-radius: 2px;
+    background-color: rgb(237, 243, 236);
+    padding: 0.4em 0.6em;
+    margin-right: 10px;
+}
+
+.textbox-small-blue {
+    border-radius: 2px;
+    background-color: rgb(231, 243, 248);
+    padding: 0.4em 0.6em;
+}
+
+em {
+    font-style: normal;
+    display: inline;
+    box-shadow: inset 0 -9px 0 #ffe7c2;
+}
+
+/* ---------------- Review Single Post --------------- */
+
+.single-header-div {
+    background-position: center;
+}
+
+.product-type a {
+    color: #fff;
+}
+
+.product-summary-wrapper:hover .product-btn-text {
+    color: red !important;
+    background-color: #fff !important;
+    transition: 0.4s;
+}
+
+.product-summary-wrapper .product-btn-text {
+    transition: 0.4s;
+}
+
+ul {
+    margin: 0;
+    padding-left: 16px;
+}
+
+.product-table-list {
+    border-bottom-width: 0px !important;
+    transition: 0.4s;
+}
+
+.product-table-list:last-child {
+    border-bottom-width: 1px !important;
+}
+
+.product-table-list:hover {
+    background-color: #f1f1f1;
+    transition: 0.4s;
+}
+
+.product-detail-wrapper:hover .product-btn-detail {
+    background-color: orange;
+    border-color: orange;
+    transform: translateY(-4px);
+    transition: 0.4s;
+}
+
+.product-detail-wrapper .product-btn-detail {
+    transition: 0.4s;
+}
+
+/* ---------------------------------- */
+
+/* ------------ Header ------------ */
+
+.sub-menu {
+    border-radius: 8px;
+    transition: 0.2s;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* -------------------------- */

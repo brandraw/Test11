@@ -1,0 +1,21 @@
+/* ----------------- Bloom Popup ----------------- */
+
+.et_bloom_form_header.et_bloom_header_text_dark {
+    display: none !important;
+}
+
+.et_bloom_close_button {
+    display: none !important;
+}
+
+.et_bloom_popup_container {
+    width: 400px !important;
+}
+
+.et_bloom .et_bloom_form_container .et_bloom_form_content {
+    padding: 0 !important;
+}
+
+#embedded-subscribe {
+    margin-bottom: -3px;
+}

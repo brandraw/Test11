@@ -1,0 +1,41 @@
+<nav>
+  <ul class="breadcrumb">
+    <li><a href="/">홈</a></li>
+    <li><a href="/회사소개/">회사소개</a></li>
+    <li style="color: #ffffff">CEO 소개</li>
+  </ul>
+</nav>
+
+<style>
+  .breadcrumb {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    line-height: 1.2;
+  }
+  .breadcrumb > li {
+    display: inline-block;
+    margin-top: 0;
+  }
+  .breadcrumb li a {
+    color: #aeaeae;
+  }
+  .breadcrumb li a:hover {
+    color: #fff;
+  }
+  .breadcrumb li {
+    font-size: 15px;
+  }
+  .breadcrumb > li + li:not(.paged):before {
+    content: "\002f";
+    padding: 0 5px;
+  }
+
+  @media (max-width: 959px) {
+    .breadcrumb {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      text-align: center;
+    }
+  }
+</style>

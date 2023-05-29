@@ -1,0 +1,68 @@
+<div class="second-nav-wrapper">
+  <div class="second-nav-bar">
+    <a href="#" class="second-nav-menu" target="blank">메뉴1</a>
+  </div>
+  <div class="second-nav-bar">
+    <a href="#" class="second-nav-menu" target="blank">메뉴2</a>
+  </div>
+  <div class="second-nav-bar">
+    <a href="#" class="second-nav-menu" target="blank">메뉴3</a>
+  </div>
+  <div class="second-nav-bar">
+    <a href="#" class="second-nav-menu" target="blank">메뉴4</a>
+  </div>
+</div>
+
+<style>
+  .second-nav-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .second-nav-bar {
+    padding: 20px 40px;
+  }
+
+  .second-nav-bar:hover {
+    cursor: pointer;
+  }
+
+  .second-nav-menu {
+    font-size: 18px;
+    color: #000;
+    position: relative;
+    font-weight: 700;
+  }
+
+  .second-nav-menu:hover {
+    color: #000;
+  }
+
+  .second-nav-menu::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    left: 50%;
+    bottom: -2px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .second-nav-bar:hover .second-nav-menu::after {
+    width: 100%;
+    left: 0;
+  }
+
+  @media only screen and (max-width: 690px) {
+    .second-nav-wrapper {
+      white-space: nowrap !important;
+      overflow-x: auto !important;
+      justify-content: left !important;
+    }
+
+    .second-nav-bar {
+      padding: 14px 30px 14px 0 !important;
+    }
+  }
+</style>

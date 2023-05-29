@@ -1,0 +1,275 @@
+html {
+    font-size: 6.25%;
+}
+
+@media (max-width: 1480px) {
+    html {
+        font-size: 0.06756756756756757vw;
+    }
+}
+
+@media (max-width: 1023px) {
+    html {
+        font-size: 0.09775171065493645vw;
+    }
+}
+
+@media (max-width: 860px) {
+    html {
+        font-size: 0.13020833333333335vw;
+    }
+}
+
+@media (max-width: 540px) {
+    html {
+        font-size: 0.26666666666666665vw;
+    }
+}
+
+body {
+    font-size: 18rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.8;
+}
+
+main,
+.tech-container {
+    padding-left: calc(8px + 1.5625vw);
+    padding-right: calc(8px + 1.5625vw);
+}
+
+.tech-container {
+    max-width: 1140px;
+}
+
+/*---------------Web Font-----------------*/
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('/wp-content/uploads/fonts/Pretendard-Regular.subset.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('/wp-content/uploads/fonts/Pretendard-Medium.subset.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('/wp-content/uploads/fonts/Pretendard-SemiBold.subset.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('/wp-content/uploads/fonts/Pretendard-Bold.subset.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Pretendard-Medium', sans-serif;
+    line-height: 1.8em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+    font-family: 'Pretendard-Bold', sans-serif;
+}
+
+p,
+a,
+span,
+li,
+ul,
+button,
+div {
+    font-family: inherit;
+}
+
+/* TEXT BOX */
+
+.textbox {
+    border-radius: 4px;
+    padding: 1.25em 1.5em;
+}
+
+.textbox-default {
+    border-radius: 4px;
+    border: 1px solid rgba(55, 53, 47, 0.16);
+    background-color: transparent;
+    padding: 1.25em 1.5em;
+}
+
+.textbox-yellow {
+    border-radius: 4px;
+    background-color: rgb(251, 243, 219);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-orange {
+    border-radius: 4px;
+    background-color: #FBECDD;
+    padding: 1.25em 1.5em;
+}
+
+.textbox-red {
+    border-radius: 4px;
+    background-color: rgb(253, 235, 236);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-green {
+    border-radius: 4px;
+    background-color: rgb(237, 243, 236);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-blue {
+    border-radius: 4px;
+    background-color: rgb(231, 243, 248);
+    padding: 1.25em 1.5em;
+}
+
+.textbox-gray {
+    border-radius: 4px;
+    background-color: rgb(241, 241, 239);
+    padding: 1.25em 1.5em;
+}
+
+.code-text {
+    padding: 2px 4px;
+    font-size: .95em;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+.textbox-small-default {
+    border-radius: 2px;
+    border: 1px solid rgba(55, 53, 47, 0.16);
+    background-color: transparent;
+    padding: 0.4em 0.6em;
+}
+
+.textbox-small-orange {
+    border-radius: 2px;
+    background-color: #FBECDD;
+    padding: 0.4em 0.6em;
+}
+
+.textbox-small-red {
+    border-radius: 2px;
+    background-color: rgb(253, 235, 236);
+    padding: 0.4em 0.6em;
+}
+
+.textbox-small-green {
+    border-radius: 2px;
+    background-color: rgb(237, 243, 236);
+    padding: 0.4em 0.6em;
+    margin-right: 10px;
+}
+
+.textbox-small-blue {
+    border-radius: 2px;
+    background-color: rgb(231, 243, 248);
+    padding: 0.4em 0.6em;
+}
+
+/* -------------------------------------------- */
+
+em {
+    font-style: normal;
+    display: inline;
+    box-shadow: inset 0 -9px 0 #c2daff;
+}
+
+.post .dynamic-entry-content h2 {
+    background: linear-gradient(300deg, rgba(58, 115, 234, 1) 0%, rgba(17, 83, 222, 1) 100%);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+/* ----------------- Main Page ----------------- */
+
+#post-61 .inside-article {
+    background: #F7F8F9;
+}
+
+/*  */
+
+hr {
+    margin: 14px 0 !important;
+}
+
+.tech-post-container {
+    transition: 0.5s;
+}
+
+.tech-post-container:hover {
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.wp-block-separator {
+    border: none;
+}
+
+/* Single Post Comment */
+
+.wp-block-post-comments-form input:not([type="submit"]),
+.wp-block-post-comments-form textarea {
+    border: none !important;
+}
+
+.wp-block-post-comments-form .comment-reply-title {
+    display: none !important;
+}
+
+/* --------------- Comments --------------- */
+
+.comments-area {
+    display: none;
+}
+
+/* ----------------- Bloom Popup ----------------- */
+
+.et_bloom_form_header.et_bloom_header_text_dark {
+    display: none !important;
+}
+
+.et_bloom_close_button {
+    display: none !important;
+}
+
+.et_bloom_popup_container {
+    width: 400px !important;
+}
+
+.et_bloom .et_bloom_form_container .et_bloom_form_content {
+    padding: 0 !important;
+}
+
+#embedded-subscribe {
+    margin-bottom: -3px;
+}
+
+/* --------------------------------------------- */

@@ -14,6 +14,10 @@
     font-style: normal;
 }
 
+b {
+    font-family: 'PosteramaText-Bold', 'Pretendard-Bold', sans-serif;
+}
+
 /* -------------------------------------- */
 
 span.pp-tooltip {
@@ -38,7 +42,7 @@ div#business-carousel-nav>div {
 
 .navbar-collapse {
     border: none !important;
-    box-shadow: none I !important;
+    box-shadow: none !important;
 }
 
 /* ---------- Button ------------ */
@@ -100,6 +104,12 @@ div#business-carousel-nav>div {
 
 .lqd-roadmap-info {
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .lqd-roadmap-info {
+        max-width: 100% !important;
+    }
 }
 
 /* ------------- Contact Icon ------------- */
@@ -283,6 +293,12 @@ footer.elementor-slideshow__footer.elementor-lightbox-prevent-close {
     .greener-hero-heading,
     .greener-hero-heading span {
         font-size: 32px !important;
-        line-height: 1.3rem !important;
     }
+}
+
+/* ---------------- I AM GREENER Page ---------------- */
+
+.aspect-img .attachment-full.size-full.ld-lazyload.entered.loaded {
+    aspect-ratio: 16/9 !important;
+    object-fit: cover !important;
 }

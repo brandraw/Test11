@@ -106,4 +106,8 @@ body.menu-custom-padding .col-lg-0.logo-container {
     padding-bottom: 120px !important;
 }
 
-/*  */
+/* ----------- MAIN ---------- */
+
+.uncode-wrapper.uncode-list {
+    margin: 0 !important;
+}

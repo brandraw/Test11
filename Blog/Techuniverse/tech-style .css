@@ -1,3 +1,48 @@
+html {
+    font-size: 6.25%;
+}
+
+@media (max-width: 1480px) {
+    html {
+        font-size: 0.06756756756756757vw;
+    }
+}
+
+@media (max-width: 1023px) {
+    html {
+        font-size: 0.09775171065493645vw;
+    }
+}
+
+@media (max-width: 860px) {
+    html {
+        font-size: 0.13020833333333335vw;
+    }
+}
+
+@media (max-width: 540px) {
+    html {
+        font-size: 0.26666666666666665vw;
+    }
+}
+
+body {
+    font-size: 18rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.8;
+}
+
+main,
+.tech-container {
+    padding-left: calc(8px + 1.5625vw);
+    padding-right: calc(8px + 1.5625vw);
+}
+
+.tech-container {
+    max-width: 1140px;
+}
+
 /* ----------------- Main Page ----------------- */
 
 #post-31 .inside-article {
@@ -17,6 +62,10 @@ hr {
 .tech-post-container:hover {
     transform: translateY(-5px);
     transition: 0.5s;
+}
+
+.wp-block-separator {
+    border: none;
 }
 
 /* Single Post Comment */
@@ -39,10 +88,6 @@ hr {
 /* ----------------- Bloom Popup ----------------- */
 
 .et_bloom_form_header.et_bloom_header_text_dark {
-    display: none !important;
-}
-
-.et_bloom_close_button {
     display: none !important;
 }
 
